@@ -1,7 +1,3 @@
-clear figures
-clear variables
-clc
-
 [Data,Dir] = uigetfile('.txt');
 FPdata = load(strcat(Dir,Data));
 intensity_dup = FPdata(:,1).';
